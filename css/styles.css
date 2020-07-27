@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+main{
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+@media(min-width: 768px){
+    .nav-item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #585B5B !important;
+        border-top: 2px solid #585B5B !important;
+        border-right: 2px solid #585B5B !important;
+        border-left: 1px solid #585B5B !important;
+        background-color: #546E9F!important;
+        font-weight: bold;
+        text-align: center;
+    }
+    .nav-item:first-child{
+        border-left: 2px solid #585B5B !important;
+        border-radius: 15px 0px 0px 15px !important;
+    }
+    .nav-item:last-child{
+        border-radius: 0px 15px 15px 0px !important;
+    }
+}
+@media(max-width: 767px){
+    .nav-item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #585B5B !important;
+        background-color: #546E9F!important;
+        font-weight: bold;
+        text-align: center;
+    }
+    .nav-item:first-child{
+        border-radius: 15px 15px 0px 0px !important;
+    }
+    .nav-item:last-child{
+        border-radius: 0px 0px 15px 15px !important;
+    }
+}
+.nav-item .nav-link{
+    color:white !important;
+}
+#navbarNav{
+    padding: 0px;
+}
+header{
+    background-color: #9EACC7;
+}
+h2{
+    margin-bottom: 20px !important;
+}
+header section nav{
+    background-color: #9EACC7;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+header section figure img{
+    max-height: 120px;
+}
+@media(max-width: 546px){
+    #index{
+        background-position: 50% -60%;
+    }
+}
+#index{
+    background-image: url("../img/faro.jpeg");
+    filter: brightness(300%) contrast(90%) blur(1px) saturate(200%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    padding: 60px;
+
+    color: white;
+}
+#index article{
+    height: 800px;
+}
+#index h1{
+    font-size: 500%;
+    letter-spacing: 5px;
+    margin-top: 150px;
+}
+
+#carouselExampleIndicators{
+    height: 600px;
+}
+
+#carouselExampleIndicators .carousel-inner figure{
+    background-color: #585B5B;
+    height: 600px;
+}
+
+.container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.card{
+    border-radius: 20px 20px 0px 0px !important;
+    border: 3px solid #585B5B !important;
+    border-bottom: 6px solid #585B5B !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #546E9F !important;
+}
+.contact-list{
+    display: block;
+    list-style-type: none;
+}
+.contact-list li{
+    font-size: 170%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contact-list li a{
+    text-decoration: none;
+    color: black;
+}
+.contact-list li a img{
+    height: auto;
+    width: 30px;
+    margin-right: 10px;
+}
