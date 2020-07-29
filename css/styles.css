@@ -20,6 +20,9 @@ main{
         border-right: 2px solid #585B5B !important;
         border-left: 1px solid #585B5B !important;
         background-color: #546E9F!important;
+        width: 25%;
+        height: 95px;
+        font-size: 100%;
         font-weight: bold;
         text-align: center;
     }
@@ -50,9 +53,6 @@ main{
         border-radius: 0px 0px 15px 15px !important;
     }
 }
-.nav-item .nav-link{
-    color:white !important;
-}
 #navbarNav{
     padding: 0px;
 }
@@ -61,6 +61,7 @@ header{
 }
 h2{
     margin-bottom: 20px !important;
+    letter-spacing: 3px;
 }
 header section nav{
     background-color: #9EACC7;
@@ -70,6 +71,17 @@ header section nav{
 
 header section figure img{
     max-height: 120px;
+}
+header section nav aside ul{
+    width: 100%;
+}
+header section nav aside ul li a{
+    color:white !important;
+    letter-spacing: 3px;
+}
+header section nav aside ul li:hover a{
+    color:red !important;
+    font-size:130%;
 }
 @media(max-width: 546px){
     #index{

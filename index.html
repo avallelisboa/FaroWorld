@@ -22,36 +22,25 @@
         <script src="scripts/logo.js"></script
     </head>
     <body>
-        <script>
-            window.fbAsyncInit = function() {
-            FB.init({
-                appId            : 'your-app-id',
-                autoLogAppEvents : true,
-                xfbml            : true,
-                version          : 'v7.0'
-            });
-        };
-        </script>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
         <header class="container-fluid sticky-top">
-            <section class="row align-items-center justify-content-md-between justify-content-lg-center">
-                <nav id="navbar" class="navbar navbar-expand-md col-9 col-md-5 col-lg-8 col-xl-10 navbar-light">
+            <section class="row align-items-center justify-content-md-between justify-content-lg-center justify-content-xl-center">
+                <figure id="logocontainer" class="text-md-right text-lg-left text-xl-center col-3 col-md-3 col-lg-2 col-xl-3 p-2 m-0">
+                    <img class="img-fluid" src="img/logo.png" alt="logo" title="Faroworld">
+                </figure> 
+                <nav id="navbar" class="navbar navbar-expand-md col-9 col-md-9 col-lg-10 col-xl-9 navbar-light">
                     <button onclick="hideshow()" class="navbar-toggler" id="navbarbutton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <aside class="collapse navbar-collapse justify-content-center justify-content-xl-start" id="navbarNav">
+                    <aside class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav text-right">
                             <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#index">Index</a></li>
-                            <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#operations">Operations Performed</a></li>                   
                             <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#services">Services</a></li>
-                            <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#contact">Contact</a></li>
+                            <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#operations">Operations</a></li>                   
                             <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#media">Media</a></li>
+                            <li class="nav-item p-1 p-sm-2 p-md-0 p-lg-2"><a class="nav-link" href="#contact">Contact</a></li>
                         </ul>
                     </aside> 
-                </nav>
-                <figure id="logocontainer" class="text-md-right text-lg-center col-3 col-md-5 col-lg-4 col-xl-2 p-2 m-0">
-                    <img class="img-fluid" src="img/logo.png" alt="logo" title="Faroworld">
-                </figure>                
+                </nav>                              
             </section>
         </header>
         <section id="index" class="container-fluid">
@@ -118,6 +107,14 @@
                 </div>
             </article>
         </section>
+        <section id="media" class="container">
+            <h2 class="col-12 text-center">Media</h2>
+            <article class="row">
+                <p>
+                    Etiam faucibus a elit nec cursus. Fusce varius sem pretium diam hendrerit mollis. Mauris rutrum vitae sapien et laoreet. Cras lacinia sodales lorem. Proin dolor lacus, venenatis dictum est in, porta luctus enim. Ut efficitur velit sit amet urna luctus, quis suscipit est fringilla. Etiam sit amet iaculis elit. Quisque erat erat, sodales in dolor quis, interdum imperdiet urna. Aenean non sapien laoreet, venenatis dolor a, tempus mi. Nullam enim orci, volutpat in cursus sed, convallis nec sapien.
+                </p>
+            </article>
+        </section>
         <section id="contact" class="container">
             <h2 class="col-12 text-center">Contact</h2>
             <article class="row justify-content-center">
@@ -126,14 +123,6 @@
                     <li><a href="#"><img src="img/linkedin.png" alt="Linkedin" title="Linkedin"><label>linkedin.com/</label></a></li>
                     <li><a href="#"><img src="img/whatsapp.png" alt="Whatsapp" title="Whatsapp"><label>+598------</label></a></li>
                 </ul>
-            </article>
-        </section>
-        <section id="media" class="container">
-            <h2 class="col-12 text-center">Media</h2>
-            <article class="row">
-                <p>
-                    Etiam faucibus a elit nec cursus. Fusce varius sem pretium diam hendrerit mollis. Mauris rutrum vitae sapien et laoreet. Cras lacinia sodales lorem. Proin dolor lacus, venenatis dictum est in, porta luctus enim. Ut efficitur velit sit amet urna luctus, quis suscipit est fringilla. Etiam sit amet iaculis elit. Quisque erat erat, sodales in dolor quis, interdum imperdiet urna. Aenean non sapien laoreet, venenatis dolor a, tempus mi. Nullam enim orci, volutpat in cursus sed, convallis nec sapien.
-                </p>
             </article>
         </section>
     </body>
