@@ -78,6 +78,7 @@ header section nav aside ul{
 }
 header section nav aside ul li a{
     color:white !important;
+    font-size: 25px !important;
     letter-spacing: 3px;
 }
 header section nav aside ul li:hover a{
