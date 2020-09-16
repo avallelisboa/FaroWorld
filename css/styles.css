@@ -83,11 +83,11 @@ header section nav aside ul li:hover a{
     font-size:130%;
 }
 @media(max-width: 546px){
-    #index{
+    #home{
         background-position: 50% -60%;
     }
 }
-#index{
+#home{
     background-image: url("../img/faro.jpeg");
     filter: brightness(300%) contrast(90%) blur(1px) saturate(200%);
     background-size: cover;
@@ -97,10 +97,10 @@ header section nav aside ul li:hover a{
 
     color: white;
 }
-#index article{
+#home article{
     height: 800px;
 }
-#index h1{
+#home h1{
     font-size: 500%;
     letter-spacing: 5px;
     margin-top: 150px;
