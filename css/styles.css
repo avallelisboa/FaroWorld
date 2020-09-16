@@ -76,9 +76,11 @@ header section figure img{
 header section nav aside ul{
     width: 100%;
 }
+.navbar-nav .nav-link{
+    font-size: 25px !important;
+}
 header section nav aside ul li a{
     color:white !important;
-    font-size: 25px !important;
     letter-spacing: 3px;
 }
 header section nav aside ul li:hover a{
