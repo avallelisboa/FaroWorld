@@ -139,7 +139,22 @@ header section nav aside ul li:hover a{
 .contact-list li{
     font-size: 170%;
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
+}
+@media(min-width: 768px){
+    .contact-list li{
+        margin-left: 35%;
+    }
+}
+@media(min-width: 500px){
+    .contact-list li{
+        margin-left: 25%;
+    }
+}
+@media(min-width: 300px){
+    .contact-list li{
+        margin-left: 25%;
+    }
 }
 .contact-list li a{
     text-decoration: none;
