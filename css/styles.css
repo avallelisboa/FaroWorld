@@ -145,10 +145,18 @@ header section nav aside ul li:hover a{
     .contact-list li{
         margin-left: 35%;
     }
+    header .row{
+        flex-direction:row;
+    }
 }
 @media(min-width: 500px){
     .contact-list li{
         margin-left: 25%;
+    }
+}
+@media(max-width: 767px){
+    header .row{
+        flex-direction:row-reverse;
     }
 }
 @media(min-width: 300px){
