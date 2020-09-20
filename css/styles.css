@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: roboto;
+    font-family: Roboto;
 }
 main{
     padding-left: 20px;
