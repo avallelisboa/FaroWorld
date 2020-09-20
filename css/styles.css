@@ -9,7 +9,14 @@ main{
     padding-left: 20px;
     margin-right: 20px;
 }
-
+@media(min-width: 1200px){
+   
+}
+@media(min-width: 970px){
+    #home h1 span{    
+        font-size: 54% !important;
+    }
+}
 @media(min-width: 768px){
     .nav-item{
         display: flex;
@@ -23,7 +30,7 @@ main{
         border-left: 1px solid #585B5B !important;
         background-color: #546E9F!important;
         width: 25%;
-        height: 95px;
+
         font-size: 100%;
         font-weight: bold;
         text-align: center;
@@ -34,7 +41,7 @@ main{
     }
     .nav-item:last-child{
         border-radius: 0px 15px 15px 0px !important;
-    }
+    }    
 }
 @media(max-width: 767px){
     .nav-item{
@@ -76,9 +83,6 @@ header section figure img{
 header section nav aside ul{
     width: 100%;
 }
-.navbar-nav .nav-link{
-    font-size: 25px !important;
-}
 header section nav aside ul li a{
     color:white !important;
     letter-spacing: 3px;
@@ -109,6 +113,9 @@ header section nav aside ul li:hover a{
     font-size: 500%;
     letter-spacing: 5px;
     margin-top: 150px;
+}
+#home h1 span{
+    font-size: 50%;
 }
 
 #carouselExampleIndicators{
