@@ -9,14 +9,7 @@ main{
     padding-left: 20px;
     margin-right: 20px;
 }
-@media(min-width: 1200px){
-   
-}
-@media(min-width: 970px){
-    #home h1 span{    
-        font-size: 54% !important;
-    }
-}
+
 @media(min-width: 768px){
     .nav-item{
         display: flex;
@@ -114,7 +107,7 @@ header section nav aside ul li:hover a{
     letter-spacing: 5px;
     margin-top: 150px;
 }
-#home h1 span{
+#home h1 p{
     font-size: 50%;
 }
 
