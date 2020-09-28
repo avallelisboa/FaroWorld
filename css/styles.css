@@ -138,6 +138,7 @@ header section nav aside ul li:hover a{
     min-width: 350px !important;
     max-width: 400px !important;
     background-color: #546E9F !important;
+    letter-spacing: 1px !important;
 }
 .contact-list{
     display: block;
@@ -181,6 +182,10 @@ header section nav aside ul li:hover a{
     margin-right: 10px;
 }
 
+#media article{
+    letter-spacing: 1px;
+}
+
 #contact{
     font-family: Roboto, Helvetica, Arial;
     padding: 20px;
@@ -189,5 +194,6 @@ header section nav aside ul li:hover a{
 }
 #contact ul li, #contact h2, #contact ul li label {
     font-family: Roboto, Helvetica, Arial;
+    letter-spacing: 2px;
     color: white;
 }
