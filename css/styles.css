@@ -212,6 +212,13 @@ header section nav aside ul li:hover a{
 #media article{
     letter-spacing: 1px;
 }
+#media article p:hover{
+    border: 2px solid #585B5B;
+    background-color: #9EACC7;
+    line-height: 50px;
+    font-size: 150%;
+    z-index: 10;
+}
 
 #contact{
     font-family: Roboto, Helvetica, Arial;
