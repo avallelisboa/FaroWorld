@@ -133,11 +133,10 @@ header section nav aside ul li:hover a{
 
 #carouselExampleIndicators{
     height: 600px;
+    margin: 0px auto;
 }
 
 #carouselExampleIndicators .carousel-inner figure{
-    background-color: #585B5B;
-    height: 600px;
 }
 
 .container{
